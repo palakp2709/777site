@@ -1,4 +1,4 @@
-import blackWidow from "../images/blackwidow.png";
+import blackWidow from "../images/blackwidow.jpg";
 import deadPool from "../images/deadpool.jpg";
 import superMan from "../images/superman.png";
 import batman from "../images/batman.png";

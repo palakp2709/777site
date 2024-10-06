@@ -4,24 +4,24 @@ import Brandlogo from "./component/Brandlogo";
 import Headlogo from "./component/Headlogo";
 import InfoPage from "./component/InfoPage";
 import Footer from "./component/Footer";
-import Bg from "./component/Bg";
+// import Bg from "./component/Bg";
 
 function App() {
   return (
     <div className="bg-gradient-to-r bg-blue-950 from-cyan-700 h-[100%]  relative">
-      <div className="absolute   h-[100%] w-full ">
+      {/* <div className="absolute   h-[100%] w-full ">
         <Bg />
-      </div>
+      </div> */}
 
-      <div className="relative ">
-          <div >
+      {/* <div className="relative "> */}
+          {/* <div > */}
             <Brandlogo />
-          </div>
+          {/* </div> */}
 
-          <div className="absolute right-1 sm:right-4 top-36 sm:top-32 lg:top-10 lg:right-24 ">
+          {/* <div className="absolute right-1 sm:right-4 top-36 sm:top-32 lg:top-10 lg:right-24 "> */}
             <Headlogo />
-          </div>
-      </div>
+          {/* </div> */}
+      {/* </div> */}
       
       <InfoPage />
       <Footer />

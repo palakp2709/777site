@@ -83,9 +83,9 @@ const InfoPage = () => {
   return (
     <div>
       {/* first row */}
-      <div className=" grid grid-cols-1 lg:grid-cols-4 lg:gap-6   md:gap-6 m-auto lg:w-[65rem]  mt-10 ">
-        <div className="lg:flex justify-evenly  lg:w-[65rem]  m-auto lg:m-0 mt-8 lg:mt-0">
-          <div className=" shadow-cyan-950 shadow-xl  m-auto  sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
+      <div className=" grid grid-cols-1  lg:grid-cols-4 lg:gap-6  md:gap-6 m-auto lg:w-[65rem] lg:mt-8">
+        <div className="lg:flex justify-evenly  lg:w-[65rem]  m-auto lg:m-0  ">
+          <div className=" shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[0].image}
@@ -94,13 +94,13 @@ const InfoPage = () => {
               />
             </div>
 
-            <div className=" relative ">
+            <div className=" relative  h-3">
               <i
-                className="fa-solid fa-chevron-left absolute left-2 top-16 text-gray-400  "
+                className="fa-solid fa-chevron-left absolute left-3 top-0 text-gray-500  "
                 onClick={prevSlide}
               ></i>
               <i
-                className="fa-solid fa-chevron-right absolute right-2 top-16 text-gray-400 "
+                className="fa-solid fa-chevron-right absolute right-3 top-0 text-gray-500 "
                 onClick={nextSlide}
               ></i>
             </div>
@@ -114,7 +114,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-cyan-950 shadow-xl w-56  m-auto sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
+          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[1].image}
@@ -123,13 +123,13 @@ const InfoPage = () => {
               />
             </div>
 
-            <div className=" relative ">
+            <div className=" relative h-3">
               <i
-                className="fa-solid fa-chevron-left absolute left-2 top-16 text-gray-400 "
+                className="fa-solid fa-chevron-left absolute left-3 top-0 text-gray-500 "
                 onClick={prevSlide1}
               ></i>
               <i
-                className="fa-solid fa-chevron-right absolute right-2 top-16 text-gray-400"
+                className="fa-solid fa-chevron-right absolute right-3 top-0 text-gray-500"
                 onClick={nextSlide1}
               ></i>
             </div>
@@ -143,7 +143,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-cyan-950 shadow-xl w-56  m-auto  sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
+          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[2].image}
@@ -152,13 +152,13 @@ const InfoPage = () => {
               />
             </div>
 
-            <div className=" relative ">
+            <div className=" relative h-3">
               <i
-                className="fa-solid fa-chevron-left absolute left-2 top-16 text-gray-400  "
+                className="fa-solid fa-chevron-left absolute left-3 top-0 text-gray-500  "
                 onClick={prevSlide2}
               ></i>
               <i
-                className="fa-solid fa-chevron-right absolute right-2 top-16 text-gray-400 "
+                className="fa-solid fa-chevron-right absolute right-3 top-0 text-gray-500 "
                 onClick={nextSlide2}
               ></i>
             </div>
@@ -177,7 +177,7 @@ const InfoPage = () => {
       {/* second row */}
       <div className=" grid grid-cols-1 lg:grid-cols-4 lg:gap-6   md:gap-6 m-auto lg:w-[55rem]  lg:mt-10 ">
         <div className="lg:flex justify-evenly  lg:w-[55rem]  m-auto lg:m-0  lg:mt-0">
-          <div className=" shadow-cyan-950 shadow-xl  m-auto  sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
+          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[3].image}
@@ -186,13 +186,14 @@ const InfoPage = () => {
               />
             </div>
 
-            <div className=" relative ">
+
+            <div className={data4.length  === 1 ? "hidden" : " relative h-3"}>
               <i
-                className="fa-solid fa-chevron-left absolute left-2 top-16 text-gray-400  "
+                className="fa-solid fa-chevron-left absolute left-3 top-0 text-gray-500  "
                 onClick={prevSlide3}
               ></i>
               <i
-                className="fa-solid fa-chevron-right absolute right-2 top-16 text-gray-400 "
+                className="fa-solid fa-chevron-right absolute right-3 top-0 text-gray-500 "
                 onClick={nextSlide3}
               ></i>
             </div>
@@ -206,7 +207,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-cyan-950 shadow-xl w-56  m-auto  sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
+          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[4].image}
@@ -215,13 +216,13 @@ const InfoPage = () => {
               />
             </div>
 
-            <div className=" relative ">
+            <div className=" relative h-3">
               <i
-                className="fa-solid fa-chevron-left absolute left-2 top-16  text-gray-400 "
+                className="fa-solid fa-chevron-left absolute left-3 top-0  text-gray-500 "
                 onClick={prevSlide4}
               ></i>
               <i
-                className="fa-solid fa-chevron-right absolute right-2 top-16 text-gray-400"
+                className="fa-solid fa-chevron-right absolute right-3 top-0 text-gray-500"
                 onClick={nextSlide4}
               ></i>
             </div>
