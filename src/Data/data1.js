@@ -5,37 +5,33 @@ import kareena from "../images/kareena.png";
 import karthik from "../images/karthik.png";
 
 const data = [
-    {
-    image : kejriwal,
-    info : "Kejriwal Baba",
-    contact : 8970977777
-    },
+  {
+    image: katrina,
+    info: "Katrina Baba",
+    contact: 7770003827,
+  },
 
-    {
-        image :  aisha,
-        info : "Aisha Baba",
-        contact : 8970877777
-    },
+  {
+    image: kareena,
+    info: "Kareena Baba",
+    contact: 7770003752,
+  },
+  {
+    image: aisha,
+    info: "Aisha Baba",
+    contact: 8970877777,
+  },
+  {
+    image: kejriwal,
+    info: "Kejriwal Baba",
+    contact: 8970977777,
+  },
 
-    {
-        image :  katrina,
-        info : "Katrina Baba",
-        contact : 7770003827
-    },
-
-    {
-        image :  kareena,
-        info : "Kareena Baba",
-        contact : 7770003752
-    },
-
-    {
-        image : karthik ,
-        info : "Karthik Baba",
-        contact : 997346222
-    },
-
-    
-]
+  {
+    image: karthik,
+    info: "Karthik Baba",
+    contact: 997346222,
+  },
+];
 
 export default data;

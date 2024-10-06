@@ -175,7 +175,7 @@ const InfoPage = () => {
       </div>
 
       {/* second row */}
-      <div className=" grid grid-cols-1 lg:grid-cols-4 lg:gap-6   md:gap-6 m-auto lg:w-[55rem]   ">
+      <div className=" grid grid-cols-1 lg:grid-cols-4 lg:gap-6   md:gap-6 m-auto lg:w-[55rem]  lg:mt-10 ">
         <div className="lg:flex justify-evenly  lg:w-[55rem]  m-auto lg:m-0  lg:mt-0">
           <div className=" shadow-cyan-950 shadow-xl  m-auto  sm:w-64 rounded-md hover:shadow-gray-900 mt-10 lg:mt-0">
             <div>
