@@ -13,8 +13,8 @@ import trophy1 from "../BgImages/trophy1.png";
 const Bg = () => {
   return (
     <div className="relative  h-[100%] ">
-      <div className="absolute bottom-16 md:bottom-10 right-6 sm:right-3 rotate-12  ">
-        <img src={cards} alt="img" className="h-16 sm:h-28 md:h-36 " />
+      <div className="absolute bottom-16 md:bottom-10 right-5 sm:right-3 rotate-12  ">
+        <img src={cards} alt="img" className="h-14 sm:h-28 md:h-36 " />
       </div>
 
       <div className="absolute  bottom-12 sm:bottom-14 -rotate-45 -left-4 sm:-left-9 ">
@@ -64,9 +64,9 @@ const Bg = () => {
         <img src={badmintion} alt="img" className="h-10 sm:h-20" />
       </div>
 
-      <div className="absolute left-1 sm:left-6 bottom-48 sm:bottom-40 -rotate-12 ">
+      {/* <div className="absolute left-1 sm:left-6 bottom-48 sm:bottom-40 -rotate-12 ">
         <img src={trophy1} alt="img" className="h-12 sm:h-20 md:h-24 " />
-      </div>
+      </div> */}
 
       <div className="absolute  p-2  right-0 ">
         <img src={trophy1} alt="img" className="h-14 sm:h-16 md:h-20   " />
