@@ -30,7 +30,7 @@ const data = [
   {
     image: karthik,
     info: "Karthik Baba",
-    contact: 997346222,
+    contact: 9937346222,
   },
 ];
 

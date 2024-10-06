@@ -19,7 +19,7 @@ const managerData = [
   {
     image: deadPool,
     info: "Deadpool",
-    contact: 87589010597,
+    contact: 7589010597,
   },
   {
     image: anushka,
