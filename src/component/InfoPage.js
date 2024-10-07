@@ -85,7 +85,7 @@ const InfoPage = () => {
       {/* first row */}
       <div className=" grid grid-cols-1  lg:grid-cols-4 lg:gap-6  md:gap-6 m-auto lg:w-[65rem] lg:mt-8">
         <div className="lg:flex justify-evenly  lg:w-[65rem]  m-auto lg:m-0  ">
-          <div className=" shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
+          <div className="bg-[#1a4f83] shadow-gray-900 shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-black mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[0].image}
@@ -114,7 +114,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
+          <div className="bg-[#1a4f83] shadow-gray-900 shadow-2xl  py-2 m-auto   w-64 rounded-md hover:shadow-black mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[1].image}
@@ -143,7 +143,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
+          <div className="bg-[#1a4f83] shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-black mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[2].image}
@@ -177,7 +177,7 @@ const InfoPage = () => {
       {/* second row */}
       <div className=" grid grid-cols-1 lg:grid-cols-4 lg:gap-6   md:gap-6 m-auto lg:w-[55rem]  lg:mt-10 ">
         <div className="lg:flex justify-evenly  lg:w-[55rem]  m-auto lg:m-0  lg:mt-0">
-          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
+          <div className="bg-[#1a4f83] shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-black mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[3].image}
@@ -207,7 +207,7 @@ const InfoPage = () => {
             </div>
           </div>
 
-          <div className="shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-gray-950 mt-10 lg:mt-0">
+          <div className="bg-[#1a4f83] shadow-gray-900  shadow-2xl py-2 m-auto   w-64 rounded-md hover:shadow-black mt-10 lg:mt-0">
             <div>
               <Managerlogo
                 image={managerData[4].image}
